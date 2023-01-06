@@ -176,12 +176,66 @@ header{
     border-radius: 5px;
 }
 
+
+/* Contact Form CSS */
+.form-section {
+    margin: 0 230px 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+    margin-bottom: 45px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input {
+  width: 500px;
+  padding: 20px;
+  background: transparent;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 3px solid #2C75B094;
+  color: #737272;
+}
+
+.contact-form textarea {
+  border: 3px solid #2C75B094;
+  color: #737272;
+  padding: 20px;
+}
+
+
+#form-submit-btn {
+  margin-top: 20px !important;
+  background: #005FAC;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  width: 200px;
+  margin: auto;
+}
+
+
 /* Footer CSS */
 footer {
     padding: 130px 230px;
     background: #151414;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 330px;
 }
 
@@ -209,6 +263,10 @@ footer {
     height: 50px;
     margin-right: 18px;
     border-radius: 50px;
+}
+
+.social-icons:hover {
+  cursor: pointer;
 }
 
 .footer-subscription h6 {
