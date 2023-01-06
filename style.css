@@ -142,3 +142,96 @@ header{
     color: #737272;
     text-align: center;
 }
+
+/* Call to action section */
+
+.call-to-section {
+    height: 300px;
+    margin: 0 130px 230px;
+    background-image: linear-gradient(to right, rgba(0, 95, 172, 0.888), rgba(0, 95, 172, 0.02)), url('assets/images/watch.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    padding: 60px 65px;
+}
+
+.call-to-section-container {
+    width: 450px;
+}
+
+.call-to-section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.call-to-action-btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer CSS */
+footer {
+    padding: 130px 230px;
+    background: #151414;
+    display: flex;
+    justify-content: space-between;
+    gap: 330px;
+}
+
+.lead-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 15px;
+}
+
+.lead-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.footer-leads span {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.social-icons {
+    width: 50px;
+    height: 50px;
+    margin-right: 18px;
+    border-radius: 50px;
+}
+
+.footer-subscription h6 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+#subscribe-email {
+    width: 325px;
+    height: 65px;
+    background: transparent;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.subscribe-btn {
+    background: #005FAC;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
